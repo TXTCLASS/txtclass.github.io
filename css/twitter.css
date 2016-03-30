@@ -12,7 +12,7 @@
 
 .tweet {
   text-align: left;
-  color: #777;
+  color: #fff;
   font-size: 16px;
   font-family: 'Droid Serif', serif;
   line-height: 1.5em;
@@ -22,9 +22,9 @@
   color: inherit !important;
 }
 
-.timePosted {
+.timePosted a {
   text-align: left;
-  color: #999;
+  color: #D2D2D2;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -57,7 +57,7 @@ span[title="Verified Account"],
 }
 
 .interact {
-  text-align: left;
+  text-align: right;
   font-size: 14px;
 }
 
@@ -65,6 +65,7 @@ span[title="Verified Account"],
   display: inline-block;
   margin: 0 5px;
   font-family: 'Droid Serif', serif;
+  color: #D2D2D2;
 }
 
 .interact a:first-child {

@@ -66,7 +66,9 @@ var config1 = {
   "domId": 'twitter',
   "maxTweets": 1,
   "enableLinks": true,
-  "showUser": true
+  "showUser": false,
+  "showTime": true,
+  "showInteraction": true
 };
 twitterFetcher.fetch(config1);
 
