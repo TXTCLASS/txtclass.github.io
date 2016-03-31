@@ -14,8 +14,8 @@
   text-align: left;
   color: #fff;
   font-size: 16px;
-  font-family: 'Droid Serif', serif;
-  line-height: 1.5em;
+  font-family: 'Montserrat', serif;
+  line-height: 1.4em;
 }
 
 .tweet a {
@@ -58,14 +58,24 @@ span[title="Verified Account"],
 
 .interact {
   text-align: right;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .interact a {
   display: inline-block;
   margin: 0 5px;
-  font-family: 'Droid Serif', serif;
-  color: #D2D2D2;
+  font-family: 'Montserrat', serif;
+  color: #fff;
+  border: solid;
+  border-width: 1px;
+  padding: 3px;
+  border-radius: 5px;
+  border-color: #fff;
+}
+
+.interact a:hover {
+  color: #0099d5;
+  background-color: #fff;
 }
 
 .interact a:first-child {
