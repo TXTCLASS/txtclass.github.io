@@ -83,7 +83,7 @@
 					<span class="dropcap">Hi</span><span class="detail"></span>
 				</p>
 				<div class="button hidden-xs hidden-sm">
-					<a href="docs/ZJ-WebResume-2016.pdf" class="download">Download Resume &nbsp;
+					<a href="docs/ZJ-WebResume-2016.pdf" id="download-resume" class="download">Download Resume &nbsp;
 						<span class="fa fa-download"></span>
 					</a>
 				</div>
@@ -120,7 +120,7 @@
 							<h2 class="title">+3.5 Years of Experience</h2>
 							<!-- begin #timeline -->
 							<div class="button hidden-md hidden-lg">
-								<a href="docs/ZJ-WebResume-2016.pdf" class="download hidden-md hidden-lg">Download Resume &nbsp;
+								<a href="docs/ZJ-WebResume-2016.pdf" id="download-resume" class="download hidden-md hidden-lg">Download Resume &nbsp;
 									<span class="fa fa-download"></span>
 								</a>
 							</div>
@@ -480,6 +480,12 @@
 
 	  ga('create', 'UA-75809241-1', 'auto');
 	  ga('require', 'displayfeatures');
+	  ga('set', 'page', '/docs/ZJ-WebResume-2016.pdf');
+	  ga('set', '&linkid', 'download-resume');
+	  ga('set', '&linkid', 'resume');
+	  ga('set', '&linkid', 'portfolio');
+	  ga('set', '&linkid', 'blog');
+	  ga('set', '&linkid', 'contact');
 	  ga('require', 'linkid');
 	  ga('send', 'pageview');
 
