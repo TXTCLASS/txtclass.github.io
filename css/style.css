@@ -824,6 +824,15 @@ ul {
 	outline: none;
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  margin-bottom: 30px !important;
+}
+
+.audioEmbed {
+	margin-bottom: 30px !important;	
+}
 
 /*  ----------------------------------------------------------
 [8. #contact]
@@ -1042,7 +1051,7 @@ ul {
 
 .blog-img,
 .portfolio-img {
-	width: 100%;
+	/*width: 100%;*/
 	border-radius: 3px;
 	margin-bottom: 10px;
 }
